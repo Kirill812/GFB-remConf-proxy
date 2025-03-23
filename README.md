@@ -22,7 +22,7 @@ A proxy server for the Firebase Remote Config Admin API that makes it easier to 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/GFB-remConf-proxy.git
+git clone https://github.com/Kirill812/GFB-remConf-proxy.git
 cd GFB-remConf-proxy
 ```
 
