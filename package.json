@@ -1,0 +1,36 @@
+{
+  "name": "GFB-remConf-proxy",
+  "version": "1.0.0",
+  "description": "Proxy server for Firebase Remote Config API with parameter group organization",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "node tests/manual-test.js",
+    "test:groups": "node tests/test-parameter-groups.js",
+    "test:groups-with-params": "node tests/test-parameter-groups-with-params.js",
+    "demo": "node demo.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/GFB-remConf-proxy.git"
+  },
+  "keywords": [
+    "firebase",
+    "remote-config",
+    "api",
+    "proxy",
+    "parameter-groups"
+  ],
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.10.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "morgan": "^1.10.0",
+    "axios": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
